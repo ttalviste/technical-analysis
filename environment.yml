@@ -1,4 +1,16 @@
 name: tehnical-analysis
+channels:
+  - conda-forge
+  - defaults
 dependencies:
   - python=3.9
   - pip=21.2.4
+  - pip:
+    - numpy
+    - pandas
+    - pandas-datareader
+    - cufflinks
+    - plotly==5.3.1
+    - yfinance
+    - jupyterlab
+    - matplotlib
